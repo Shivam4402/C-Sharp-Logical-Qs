@@ -9,7 +9,6 @@ D:\MyDesktop\Practice\Interview Logical Qs\bin\Debug\ConsoleApp1.exe.config
 D:\MyDesktop\Practice\Interview Logical Qs\bin\Debug\ConsoleApp1.exe
 D:\MyDesktop\Practice\Interview Logical Qs\bin\Debug\ConsoleApp1.pdb
 D:\MyDesktop\Practice\Interview Logical Qs\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
-D:\MyDesktop\Practice\Interview Logical Qs\obj\Debug\ConsoleApp1.exe.config
 D:\MyDesktop\Practice\Interview Logical Qs\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 D:\MyDesktop\Practice\Interview Logical Qs\obj\Debug\ConsoleApp1.exe
 D:\MyDesktop\Practice\Interview Logical Qs\obj\Debug\ConsoleApp1.pdb

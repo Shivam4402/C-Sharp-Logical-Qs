@@ -10,6 +10,42 @@ namespace ConsoleApp1
     {
 
 
+        public void printMessageWithoutSemicolon()
+        {
+            int i = 1;
+            for (; i <= 1; Console.WriteLine("Welcome To C#"))
+            {
+                i++;
+            }
+        }
+
+        //#########################################################################################################################################
+
+
+
+        public void multiplyWithoutStarOperator()
+        {
+            //without using * operator.
+
+            int a = 3;
+            int b = 3;
+
+            int c = 0;
+
+            for (int i = 1; i <= b; i++)
+            {
+                c = c + a;
+            }
+
+            Console.WriteLine("Multiplication without * Operator: " +c);
+
+        }
+
+        //#########################################################################################################################################
+
+
+
+
         public void printFibSeries()
         {
             int a = 0, b = 1;
@@ -128,6 +164,64 @@ namespace ConsoleApp1
 
             Console.WriteLine($"Factorial of a {num} is: {fact}");
         }
+
+        //#########################################################################################################################################
+
+
+
+        public void CheckSemiPrimeOrNot()
+        {
+            int IsPrime(int n)
+            {
+                if (n < 2)
+                {
+                    return 0;
+                }
+
+                for (int i = 2; i <= Math.Sqrt(n); i++)
+                {
+                    if (n % i == 0)
+                    {
+                        return 0;
+                    }
+                }
+                return 1;
+            }
+
+
+            Console.WriteLine("Enter Number To Check it is SemiPrime Or Not:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int count = 0;
+
+            for (int i = 2; i <= num / 2; i++)
+            {
+                if (num % i == 0)
+                {
+                    int j = num / i;
+
+                    if (IsPrime(i) == 1 && IsPrime(j) == 1)
+                    {
+                        count++;
+                        break;
+                    }
+                }
+            }
+
+
+            if (count == 1)
+            {
+                Console.WriteLine(num + " is a Semiprime number.");
+            }
+            else
+            {
+                Console.WriteLine(num + " is NOT a Semiprime number.");
+            }
+
+        }
+
+        //#########################################################################################################################################
+
+
 
 
     }

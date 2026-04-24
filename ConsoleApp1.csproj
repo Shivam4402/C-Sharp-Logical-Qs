@@ -46,7 +46,11 @@
     <Compile Include="2-ForLoop.cs" />
     <Compile Include="3-BasicRecursion.cs" />
     <Compile Include="4-PatternsByYuvrajSir.cs" />
-    <Compile Include="5-WhileLoop.cs" />
+    <Compile Include="5-PatternsBySheryians.cs" />
+    <Compile Include="6-WhileLoop.cs" />
+    <Compile Include="7-Array.cs" />
+    <Compile Include="9-StringPrograms.cs" />
+    <Compile Include="8-NestedArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-BasicLogical.cs" />

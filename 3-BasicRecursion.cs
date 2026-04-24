@@ -9,7 +9,6 @@ namespace ConsoleApp1
     public class BasicRecursion
     {
 
-        //#########################################################################################################################################
 
         public void printOneToTenNumbersWithoutLoop(int i)
         {

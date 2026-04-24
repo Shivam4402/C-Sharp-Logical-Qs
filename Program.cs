@@ -11,713 +11,10 @@ namespace ConsoleApp1
     public class Program
     {
 
-
-        void binaryToDecimal()
-        {
-            Console.WriteLine("Enter Binary Code:");
-            int binNum = Convert.ToInt32(Console.ReadLine());
-
-            int ans = 0;
-            int pow = 1;
-            int count = 0;
-
-            while (binNum > 0)
-            {
-                int rem = binNum % 10;
-                if (rem == 1)
-                {
-                    count++;
-                }
-                ans = ans + (rem * pow);
-                binNum = binNum / 10;
-                pow = pow * 2;
-            }
-
-            Console.WriteLine("Your Decimal Number:" + ans);
-            Console.WriteLine("Count 0f 1:" + count);
-
-        }
-
-
-
-        
-
-        void decimalToBinary()
-        {
-            Console.WriteLine("Enter Decimal Value:");
-            int deciNum = Convert.ToInt32(Console.ReadLine());
-
-
-            int ans = 0;
-            int pow = 1;
-            int count = 0;
-            while (deciNum > 0)
-            {
-                int rem = deciNum % 2;
-                if (rem == 1)
-                {
-                    count++;
-                }
-                ans = ans + (rem * pow);
-                deciNum = deciNum / 2;
-                pow = pow * 10;
-            }
-
-            Console.WriteLine("Your Binary Code:" + ans);
-            Console.WriteLine("Count 0f 1:" + count);
-
-
-
-        }
-
-
-
-
-
-
-        void countOfDigit()
-        {
-            Console.WriteLine("Enter number:");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-            int sum = 0;
-
-            while (num > 0)
-            {
-                int rem = num % 10;
-                sum = sum +rem;
-                num = num / 10;
-            }
-
-            Console.WriteLine(sum);
-        }
-
-
-
-        void reverseString()
-        {
-            string str = "SHIVAM";
-
-            for (int i = str.Length-1; i >= 0; i--)
-            {
-                Console.Write(str[i]);
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-      
-        }
-
-
-
-        void ascendingArray()
-        {
-            int[] a = { 5, 4, 3, 8, 2, 7 };
-
-            for (int i = 0; i < a.Length; i++)
-            {
-                for(int j = i+1; j<a.Length; j++)
-                {
-                    if (a[i] > a[j])
-                    {
-                        int temp = a[i];
-                        a[i] = a[j];
-                        a[j] = temp;
-                    }
-                }
-            }
-
-            Console.WriteLine("Ascending Array:");
-            for (int i = 0;i < a.Length; i++)
-            {
-                Console.Write(a[i]+" ");
-            }
-        }
-
-
-
-
-
-        void pattern1()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = 1; j <= n ; j++)
-                {
-                    Console.Write("* ");
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-
-        void pattern2()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("* ");
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-
-        void pattern3()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write(j+" ");
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-
-        void pattern4()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-                char ch = 'A';
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write(ch+" ");
-                    ch++;
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-
-        void pattern5()
-        {
-            int n = 5;
-
-
-            //[LOGIC 1]
-
-            //for (int i = 1; i <= n; i++)
-            //{
-            //    for (int j = 1; j <= n - i+1; j++)
-            //    {
-            //        Console.Write("* ");
-            //    }
-
-            //    Console.WriteLine();
-            //}
-
-
-
-            //[LOGIC 2]
-
-            //for (int i = 1; i <= n; i++)
-            //{
-            //    for (int j = n; j >= i; j--)
-            //    {
-            //        Console.Write("* ");
-            //    }
-
-            //    Console.WriteLine();
-            //}
-
-
-
-            //[LOGIC 3]
-
-            for (int i = n; i >= 1; i--)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("* ");
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-
-
-        void pattern6()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = 1; j <= n - i; j++)
-                {
-                    Console.Write("  ");
-                }
-
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("* ");
-                }
-
-
-                Console.WriteLine();
-            }
-        }
-
-
-
-        void pattern7()
-        {
-            int n = 5;
-
-            for(int i = 1; i<=n; i++)
-            {
-                for(int j=1; j<= n-i; j++)
-                {
-                    Console.Write("  ");
-                }
-
-                for (int j = 1; j <= i ; j++)
-                {
-                    Console.Write("* ");
-                }
-
-                for (int j = 1; j <= i - 1; j++)
-                {
-                    Console.Write("* ");
-                }
-
-                Console.WriteLine();
-            }
-        }
-
-
-
-
-        void pattern8()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-                for (int j = 1; j <= n - i; j++)
-                {
-                    Console.Write("  ");
-                }
-
-                for (int j = 1; j <= i; j++)
-                {
-                    if (i % 2 == 0)
-                    {
-                        Console.Write("@ ");
-                    }
-                    else
-                    {
-                        Console.Write("* ");
-                    }
-                }
-
-
-                Console.WriteLine();
-            }
-        }
-
-
-
-        void pattern9()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-               
-
-                for (int j = 1; j <= n; j++)
-                {
-                    if (i ==1 || j==1 || i==n || j==n )
-                    {
-                        Console.Write("*");
-                    }
-                    else
-                    {
-                        Console.Write(" ");
-                    }
-                }
-
-
-                Console.WriteLine();
-            }
-        }
-
-
-        void pattern10()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-
-
-                for (int j = 1; j <= n; j++)
-                {
-                    if (i == 1 || i == n || i+j==6)
-                    {
-                        Console.Write("* ");
-                    }
-                    else
-                    {
-                        Console.Write("  ");
-                    }
-                }
-
-
-                Console.WriteLine();
-            }
-        }
-
-
-
-
-        void patternX()
-        {
-            int n = 7;
-
-            for (int i = 1; i <= n; i++)
-            {
-
-                for (int j = 1; j <= n; j++)
-                {
-                    if(i==j || i + j == n + 1)
-                    {
-                        Console.Write("*");
-
-                    }
-                    else
-                    {
-                        Console.Write(" ");
-                    }
-                }
-
-                Console.WriteLine();
-            }
-
-        }
-
-
-
-        void patternV()
-        {
-            int n = 5;
-
-            for (int i = 1; i <= n; i++)
-            {
-
-                for (int j = 1; j <= n*2; j++)
-                {
-                    if (i == j || i + j == n*2)
-                    {
-                        Console.Write("*");
-
-                    }
-                    else
-                    {
-                        Console.Write(" ");
-                    }
-                }
-
-                Console.WriteLine();
-            }
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-        void powerOfNumber()
-        {
-            int a = 3, b = 3;
-            int c = 1;
-
-            while (b != 0)
-            {
-                c = c * a;
-                b--;
-            }
-
-            Console.WriteLine(c);
-        }
-
-
-        void sumOfDigits()
-        {
-            int num = 123;
-            int sum = 0;
-            while (num != 0)
-            {
-                int rem = num % 10;
-                sum = sum + rem;
-                num = num / 10;
-            }
-            Console.WriteLine("Sum of digits:"+sum);
-        }
-
-
-
-
-
-
-
-
-
         static void Main(string[] args)
         {
+
             Program program = new Program();
-
-
-
-            //program.powerOfNumber();
-
-            //program.sumOfDigits();
-
-
-
-
-            //program.binaryToDecimal();
-            //Console.WriteLine();
-
-
-            //program.decimalToBinary();
-            //Console.WriteLine();
-
-
-            //program.fibSeries(0, 1);
-            //Console.WriteLine();
-
-
-            //program.printPrime();
-            //Console.WriteLine();
-
-
-            //program.factorialNumber();
-            //Console.WriteLine();
-
-
-            //program.countOfDigit();
-            //Console.WriteLine();
-
-
-            //program.reverseString();
-            //Console.WriteLine();
-
-
-            //program.ascendingArray();
-            //Console.WriteLine();
-
-
-            //program.OneToTen(1);
-            //Console.WriteLine();
-
-            //program.TenToOne(10);
-            //Console.WriteLine();
-
-
-            //program.Table5WithoutLoop(1);
-            //Console.WriteLine();
-
-
-            //program.FibSeriedWithoutLoop(0, 1);
-            //Console.WriteLine();
-
-            //program.FactorialWithoutLoop(5);
-            //Console.WriteLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //[YOUTUBE CHANNEL]: Sheryians Coding School
-            //[YOUTUBE LINK]: https://www.youtube.com/watch?v=NaRPbIXRwhE&list=PLbtI3_MArDOmSKABu09sEs0SxCibd1wgr&index=7
-
-            //program.pattern1();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //*****
-            //*****
-            //*****
-            //*****
-            //*****
-
-            //program.pattern2();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //*
-            //**
-            //***
-            //****
-            //*****
-
-            //program.pattern3();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //1
-            //1 2
-            //1 2 3
-            //1 2 3 4
-            //1 2 3 4 5
-
-
-            //program.pattern4();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //A
-            //A B
-            //A B C
-            //A B C D
-            //A B C D E
-
-            //program.pattern5();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //*****
-            //****
-            //***
-            //**
-            //*
-
-            //program.pattern6();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //        *
-            //      **
-            //    ***
-            //  ****
-            //*****
-
-
-            //program.pattern7();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //    *
-            //   ***
-            //  *****
-            // *******
-            //*********
-
-
-            //program.pattern8();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //        *
-            //      @@
-            //    ***
-            //  @@@@
-            //*****
-
-
-            //program.pattern9();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //*****
-            //*   *
-            //*   *
-            //*   *
-            //*****
-
-
-
-            //program.pattern10();
-            //Console.WriteLine();
-
-            //[OUTPUT]:
-            //  *****
-            //      *
-            //    *
-            //  *
-            //*****
-
-
-
-            //program.patternX();
-            //Console.WriteLine();
-
-            //program.patternV();
-            //Console.WriteLine();
-
-
 
 
 
@@ -749,6 +46,10 @@ namespace ConsoleApp1
             //b.printFizzBuzz();
             //Console.WriteLine();
 
+            //Console.WriteLine("print9Series");
+            //b.print9Series();
+            //Console.WriteLine();
+
 
 
             //#########################################################################################################################################
@@ -756,6 +57,14 @@ namespace ConsoleApp1
 
 
             ForLoop f = new ForLoop();
+
+            //Console.WriteLine("printMessageWithoutSemicolon");
+            //f.printMessageWithoutSemicolon();
+            //Console.WriteLine();
+
+            //Console.WriteLine("multiplyWithoutStarOperator");
+            //f.multiplyWithoutStarOperator();
+            //Console.WriteLine();
 
             //Console.WriteLine("printFibSeries");
             //f.printFibSeries();
@@ -771,6 +80,10 @@ namespace ConsoleApp1
 
             //Console.WriteLine("factorialOfNumber");
             //f.factorialOfNumber();
+            //Console.WriteLine();
+
+            //Console.WriteLine("CheckSemiPrimeOrNot");
+            //f.CheckSemiPrimeOrNot();
             //Console.WriteLine();
 
 
@@ -807,51 +120,497 @@ namespace ConsoleApp1
             //pt.pattern1();
             //Console.WriteLine();
 
+            //OUTPUT:
+            //1 2 3 4 5
+            //6 7 8 9 10
+            //11 12 13 14 15
+            //16 17 18 19 20
+            //21 22 23 24 25
+
             //Console.WriteLine("pattern2");
             //pt.pattern2();
             //Console.WriteLine();
+
+            //OUTPUT:
+            //1
+            //1 2
+            //1 2 3
+            //1 2 3 4
+            //1 2 3 4 5
 
             //Console.WriteLine("pattern3");
             //pt.pattern3();
             //Console.WriteLine();
 
+            //OUTPUT:
+            //1
+            //2 2
+            //3 3 3
+            //4 4 4 4
+            //5 5 5 5 5
+
             //Console.WriteLine("pattern4");
             //pt.pattern4();
             //Console.WriteLine();
+
+            //OUTPUT:
+            //1 2 3 4 5
+            //1 2 3 4
+            //1 2 3
+            //1 2
+            //1
 
             //Console.WriteLine("pattern5");
             //pt.pattern5();
             //Console.WriteLine();
 
+            //OUTPUT:
+            //5 4 3 2 1
+            //5 4 3 2
+            //5 4 3
+            //5 4
+            //5
+
             //Console.WriteLine("pattern6");
             //pt.pattern6();
             //Console.WriteLine();
+
+            //OUTPUT:
+            //5
+            //5 4
+            //5 4 3
+            //5 4 3 2
+            //5 4 3 2 1
 
             //Console.WriteLine("pattern7");
             //pt.pattern7();
             //Console.WriteLine();
 
+            //OUTPUT:
+
+            //        1
+            //      2 1
+            //    3 2 1
+            //  4 3 2 1
+            //5 4 3 2 1
+
+
             //Console.WriteLine("pattern8");
             //pt.pattern8();
             //Console.WriteLine();
+
+            //OUTPUT:
+
+            //        1
+            //      2 1 2
+            //    3 2 1 2 3
+            //  4 3 2 1 2 3 4
+            //5 4 3 2 1 2 3 4 5
 
             //Console.WriteLine("pattern9");
             //pt.pattern9();
             //Console.WriteLine();
 
+            //OUTPUT:
+            //5 4 3 2 1
+            //4 3 2 1
+            //3 2 1
+            //2 1
+            //1
+
 
             //#########################################################################################################################################
 
+
+            PatternsBySheryians ps = new PatternsBySheryians();
+
+            //[YOUTUBE CHANNEL]: Sheryians Coding School
+            //[YOUTUBE LINK]: https://www.youtube.com/watch?v=NaRPbIXRwhE&list=PLbtI3_MArDOmSKABu09sEs0SxCibd1wgr&index=7
+
+
+            //Console.WriteLine("pattern1");
+            //ps.pattern1();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //*****
+            //*****
+            //*****
+            //*****
+            //*****
+
+            //Console.WriteLine("pattern2");
+            //ps.pattern2();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //*
+            //**
+            //***
+            //****
+            //*****
+
+            //Console.WriteLine("pattern3");
+            //ps.pattern3();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //1
+            //1 2
+            //1 2 3
+            //1 2 3 4
+            //1 2 3 4 5
+
+            //Console.WriteLine("pattern4");
+            //ps.pattern4();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //A
+            //A B
+            //A B C
+            //A B C D
+            //A B C D E
+
+            //Console.WriteLine("pattern5");
+            //ps.pattern5();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //*****
+            //****
+            //***
+            //**
+            //*
+
+            //Console.WriteLine("pattern6");
+            //ps.pattern6();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //        *
+            //      **
+            //    ***
+            //  ****
+            //*****
+
+            //Console.WriteLine("pattern7");
+            //ps.pattern7();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //    *
+            //   ***
+            //  *****
+            // *******
+            //*********
+
+            //Console.WriteLine("pattern8");
+            //ps.pattern8();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //        *
+            //      @@
+            //    ***
+            //  @@@@
+            //*****
+
+            //Console.WriteLine("pattern9");
+            //ps.pattern9();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //*****
+            //*   *
+            //*   *
+            //*   *
+            //*****
+
+            //Console.WriteLine("pattern10");
+            //ps.pattern10();
+            //Console.WriteLine();
+
+            //[OUTPUT]:
+            //  *****
+            //      *
+            //    *
+            //  *
+            //*****
+
+            //Console.WriteLine("patternX");
+            //ps.patternX();
+            //Console.WriteLine();
+
+            //Console.WriteLine("patternV");
+            //ps.patternV();
+            //Console.WriteLine();
+
+
+
+
+            //#########################################################################################################################################
+
+
             WhileLoop w = new WhileLoop();
 
-            w.decimalToBinary();
+            //Console.WriteLine("countOfDigit");
+            //w.countOfDigit();
+            //Console.WriteLine();
+
+            //Console.WriteLine("sumOfDigits");
+            //w.sumOfDigits();
+            //Console.WriteLine();
+
+            //Console.WriteLine("reverseOfNumber");
+            //w.reverseOfNumber();
+            //Console.WriteLine();
+
+            //Console.WriteLine("checkPalindromeNumber");
+            //w.checkPalindromeNumber();
+            //Console.WriteLine();
+
+            //Console.WriteLine("binaryToDecimal");
+            //w.binaryToDecimal();
+            //Console.WriteLine();
+
+            //Console.WriteLine("decimalToBinary");
+            //w.decimalToBinary();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printBinaryOfOneToHundred");
+            //w.printBinaryOfOneToHundred();
+            //Console.WriteLine();
+
+            //Console.WriteLine("checkArmstrongNumber");
+            //w.checkArmstrongNumber();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printArmstrongNumbers");
+            //w.printArmstrongNumbers();
+            //Console.WriteLine();
+
+            //Console.WriteLine("addWithoutPlusSign");
+            //w.addWithoutPlusSign();
+            //Console.WriteLine();
 
 
 
 
+            //#########################################################################################################################################
+
+
+            Array arr = new Array();
+
+            //Console.WriteLine("basicArrayPrint");
+            //arr.basicArrayPrint();
+            //Console.WriteLine();
+
+            //Console.WriteLine("arrayUserInput");
+            //arr.arrayUserInput();
+            //Console.WriteLine();
+
+            //Console.WriteLine("additionOfElementsOfArray");
+            //arr.additionOfElementsOfArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printPrimeNumbersFromArray");
+            //arr.printPrimeNumbersFromArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printPalindromeNumbersFromArray");
+            //arr.printPalindromeNumbersFromArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("findGreatestNumFromArray");
+            //arr.findGreatestNumFromArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("findSecondGreatestNumFromArray");
+            //arr.findSecondGreatestNumFromArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("countOfOccuranceOfElementsInArray");
+            //arr.countOfOccuranceOfElementsInArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("mergeTwoArray");
+            //arr.mergeTwoArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("distinctArrayValues");
+            //arr.distinctArrayValues();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printMatchingValuesFromArray");
+            //arr.printMatchingValuesFromArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("leftCircularRotationArray");
+            //arr.leftCircularRotationArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("rightCircularRotationArray");
+            //arr.rightCircularRotationArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("findThirdGreatestElementFromArray");
+            //arr.findThirdGreatestElementFromArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("reverseArray");
+            //arr.reverseArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("findMissingNumberInArray");
+            //arr.findMissingNumberInArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("primeNonPrimeArray");
+            //arr.primeNonPrimeArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("swapArrayPositions");
+            //arr.swapArrayPositions();
+            //Console.WriteLine();
+
+            //Console.WriteLine("interleavingMergeOfTwoArrays");
+            //arr.interleavingMergeOfTwoArrays();
+            //Console.WriteLine();
 
 
 
+            //#########################################################################################################################################
+
+
+
+            NestedArray na = new NestedArray();
+
+            //Console.WriteLine("basicNestedArrayPrint");
+            //na.basicNestedArrayPrint();
+            //Console.WriteLine();
+
+            //Console.WriteLine("additionOfTwoMatrices");
+            //na.additionOfTwoMatrices();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printEvenNumbersFromMatrix");
+            //na.printEvenNumbersFromMatrix();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printDiagonalMatrixArray");
+            //na.printDiagonalMatrixArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printTransposeMatrix");
+            //na.printTransposeMatrix();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printAdditionOfEachRowOfMatrix");
+            //na.printAdditionOfEachRowOfMatrix();
+            //Console.WriteLine();
+
+            //Console.WriteLine("convertOneDtoTwoDArray");
+            //na.convertOneDtoTwoDArray();
+            //Console.WriteLine();
+
+            //Console.WriteLine("convertTwoDtoOneDArray");
+            //na.convertTwoDtoOneDArray();
+            //Console.WriteLine();
+
+
+
+            //#########################################################################################################################################
+
+
+
+            StringPrograms sp = new StringPrograms();
+
+            //Console.WriteLine("printStringCharLineByLine");
+            //sp.printStringCharLineByLine();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printStringWithoutSpace");
+            //sp.printStringWithoutSpace();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printEachWordOfStringLineByLine");
+            //sp.printEachWordOfStringLineByLine();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printEachWordOfStringInReverse");
+            //sp.printEachWordOfStringInReverse();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printEntireStringInReverse");
+            //sp.printEntireStringInReverse();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printStringWordsInReverseOrder");
+            //sp.printStringWordsInReverseOrder();
+            //Console.WriteLine();
+
+            //Console.WriteLine("printDistinctCharFromString");
+            //sp.printDistinctCharFromString();
+            //Console.WriteLine();
+
+            //Console.WriteLine("PalindromeCheckWithoutReverse");
+            //sp.PalindromeCheckWithoutReverse();
+            //Console.WriteLine();
+
+            //Console.WriteLine("checkIdenticalStringIrrespectiveOfTheirCase");
+            //sp.checkIdenticalStringIrrespectiveOfTheirCase();
+            //Console.WriteLine();
+
+            //Console.WriteLine("camelCase");
+            //sp.camelCase();
+            //Console.WriteLine();
+
+            //Console.WriteLine("upperCaseWithoutBuiltIn");
+            //sp.upperCaseWithoutBuiltIn();
+            //Console.WriteLine();
+
+            //Console.WriteLine("lowerCaseWithoutBuiltIn");
+            //sp.lowerCaseWithoutBuiltIn();
+            //Console.WriteLine();
+
+            //Console.WriteLine("countOfVowelInString");
+            //sp.countOfVowelInString();
+            //Console.WriteLine();
+
+            //Console.WriteLine("stringPartWithBuiltIn");
+            //sp.stringPartWithBuiltIn();
+            //Console.WriteLine();
+
+            //Console.WriteLine("stringPartWithOutBuiltIn");
+            //sp.stringPartWithOutBuiltIn();
+            //Console.WriteLine();
+
+            //Console.WriteLine("longestWordOfString");
+            //sp.longestWordOfString();
+            //Console.WriteLine();
+
+            //Console.WriteLine("splitStringDemo");
+            //sp.splitStringDemo();
+            //Console.WriteLine();
+
+            //Console.WriteLine("stringPartFromArrayOfString");
+            //sp.stringPartFromArrayOfString();
+            //Console.WriteLine();
+
+            //Console.WriteLine("findAllSubstring");
+            //sp.findAllSubstring();
+            //Console.WriteLine();
+
+            //Console.WriteLine("countOccuranceOfEachChar");
+            //sp.countOccuranceOfEachChar();
+            //Console.WriteLine();
+
+            //Console.WriteLine("countNumberOfWordsInString");
+            //sp.countNumberOfWordsInString();
+            //Console.WriteLine();
+
+           
         }
     }
 }
