@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|D:\\MyDesktop\\Practice\\Interview Logical Qs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|d:\\mydesktop\\practice\\interview logical qs\\real_interview_qs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:real_interview_qs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|d:\\mydesktop\\practice\\interview logical qs\\9-stringprograms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|D:\\MyDesktop\\Practice\\Interview Logical Qs\\9-stringprograms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:9-stringprograms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|d:\\mydesktop\\practice\\interview logical qs\\8-nestedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|d:\\mydesktop\\practice\\interview logical qs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|D:\\MyDesktop\\Practice\\Interview Logical Qs\\8-nestedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:8-nestedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:6-whileloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|d:\\mydesktop\\practice\\interview logical qs\\3-basicrecursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|D:\\MyDesktop\\Practice\\Interview Logical Qs\\3-basicrecursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:3-basicrecursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:2-forloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|d:\\mydesktop\\practice\\interview logical qs\\1-basiclogical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|D:\\MyDesktop\\Practice\\Interview Logical Qs\\1-basiclogical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B13BFCE7-2F2E-4DC4-A643-5720F80227EC}|ConsoleApp1.csproj|solutionrelative:1-basiclogical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,24 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "3-BasicRecursion.cs",
-              "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\3-BasicRecursion.cs",
-              "RelativeDocumentMoniker": "3-BasicRecursion.cs",
-              "ToolTip": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\3-BasicRecursion.cs",
-              "RelativeToolTip": "3-BasicRecursion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Real_Interview_Qs.cs",
+              "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\Real_Interview_Qs.cs",
+              "RelativeDocumentMoniker": "Real_Interview_Qs.cs",
+              "ToolTip": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\Real_Interview_Qs.cs",
+              "RelativeToolTip": "Real_Interview_Qs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T07:21:29.787Z",
+              "WhenOpened": "2026-05-06T05:01:20.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "2-ForLoop.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\2-ForLoop.cs",
               "RelativeDocumentMoniker": "2-ForLoop.cs",
@@ -75,25 +79,24 @@
               "RelativeToolTip": "2-ForLoop.cs",
               "ViewState": "AgIAAL4AAAAAAAAAAAAwwHUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T09:28:32.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T09:28:32.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAAABgBAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBQAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T04:54:35.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "7-Array.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\7-Array.cs",
               "RelativeDocumentMoniker": "7-Array.cs",
@@ -101,12 +104,11 @@
               "RelativeToolTip": "7-Array.cs",
               "ViewState": "AgIAAMACAAAAAAAAAAAIwKwCAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T07:26:44.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T07:26:44.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "6-WhileLoop.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\6-WhileLoop.cs",
               "RelativeDocumentMoniker": "6-WhileLoop.cs",
@@ -114,12 +116,11 @@
               "RelativeToolTip": "6-WhileLoop.cs",
               "ViewState": "AgIAAJ0BAAAAAAAAAAAuwMEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T10:36:54.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T10:36:54.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "8-NestedArray.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\8-NestedArray.cs",
               "RelativeDocumentMoniker": "8-NestedArray.cs",
@@ -127,8 +128,7 @@
               "RelativeToolTip": "8-NestedArray.cs",
               "ViewState": "AgIAADMBAAAAAAAAAAAYwEQBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T04:34:31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T04:34:31Z"
             },
             {
               "$type": "Document",
@@ -138,14 +138,26 @@
               "RelativeDocumentMoniker": "9-StringPrograms.cs",
               "ToolTip": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\9-StringPrograms.cs",
               "RelativeToolTip": "9-StringPrograms.cs",
-              "ViewState": "AgIAAB0DAAAAAAAAAAAgwBADAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAO4CAAAAAAAAAAAYwAwDAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T09:47:19.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "3-BasicRecursion.cs",
+              "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\3-BasicRecursion.cs",
+              "RelativeDocumentMoniker": "3-BasicRecursion.cs",
+              "ToolTip": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\3-BasicRecursion.cs",
+              "RelativeToolTip": "3-BasicRecursion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:21:29.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "1-BasicLogical.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\1-BasicLogical.cs",
               "RelativeDocumentMoniker": "1-BasicLogical.cs",
@@ -153,12 +165,11 @@
               "RelativeToolTip": "1-BasicLogical.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T08:37:21.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T08:37:21.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "5-PatternsBySheryians.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\5-PatternsBySheryians.cs",
               "RelativeDocumentMoniker": "5-PatternsBySheryians.cs",
@@ -166,12 +177,11 @@
               "RelativeToolTip": "5-PatternsBySheryians.cs",
               "ViewState": "AgIAAM0AAAAAAAAAAAAwwJkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T07:02:18.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T07:02:18.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "4-PatternsByYuvrajSir.cs",
               "DocumentMoniker": "D:\\MyDesktop\\Practice\\Interview Logical Qs\\4-PatternsByYuvrajSir.cs",
               "RelativeDocumentMoniker": "4-PatternsByYuvrajSir.cs",
@@ -179,8 +189,7 @@
               "RelativeToolTip": "4-PatternsByYuvrajSir.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEBAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T05:06:51.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T05:06:51.684Z"
             }
           ]
         }
